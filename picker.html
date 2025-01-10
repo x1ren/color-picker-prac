@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unreal</title>
+    <style>
+        #green{
+            background-color: green;
+            width: 250px;
+            height: 100px;
+            margin: 65px;
+            font-size: 50px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: greenyellow
+        }
+        #header{
+            font-size: 100px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-align: center;
+            margin-left: 410px;
+            margin-right: 410px;        
+            
+        }
+        #red{
+            background-color:red;
+            width: 250px;
+            height: 100px;
+            font-size: 50px;
+            margin: 60px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: pink
+        }
+        #blue{
+            background-color: blue;
+            width: 250px;
+            height: 100px;
+            font-size: 50px;
+            margin: 60px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color:lightblue;
+        }
+        #random{
+            background-color: white;
+            width: 250px;
+            height: 100px;
+            font-size: 50px;
+            margin: 60px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: black;
+        }
+        
+    </style>
+</head> 
+<body>
+    <h1 id = "header"> Color Picker</h1>
+    <button id = "green" onclick="setColor('green')">Green</button>
+    <button id = "red" onclick="setColor('red')">Red</button>
+    <button id = "blue" onclick="setColor('blue')">Blue</button>
+    <button id = "random" onclick = "random();letter()">Random</button>
+    <script src = "hello.js"></script>
+</body>
+</html>
